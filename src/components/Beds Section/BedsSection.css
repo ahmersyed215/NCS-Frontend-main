@@ -1,0 +1,58 @@
+.bedsSection {
+  display: flex;
+  margin: 24px;
+}
+
+.bedsSection__container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.squareBox {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  border: 4px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.squareBoxGreen {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  border: 4px solid var(--primaryColor);
+  background-color: var(--primaryColor);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.squareBoxRed {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  border: 4px solid red;
+  background-color: red;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleBox {
+  color: black;
+}
+
+.bedsSection__time {
+  margin-top: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bedsSection__timeSec {
+  margin-left: 2px;
+}

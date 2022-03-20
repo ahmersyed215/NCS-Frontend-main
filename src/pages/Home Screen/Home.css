@@ -1,0 +1,87 @@
+.home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+
+.home__bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.home__logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.home__head {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.2 1;
+  width: 90%;
+  margin: auto;
+}
+
+.home__headLeft {
+  /* display: flex; */
+}
+
+.home__headRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headRight__section {
+  display: flex;
+  margin: 0 8px;
+}
+.headRight__section > p {
+  color: var(--primaryColor);
+  font-size: 18px;
+}
+
+.vectorImage {
+  width: 24px;
+  object-fit: contain;
+}
+
+/* .bedsData{
+  display: flex;
+} */
+
+.home__body {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  width: 90%;
+  margin: auto;
+}
+.bedHeading {
+  /* color: var(--primaryColor); */
+  color: #42ae73;
+  text-transform: uppercase;
+}
+.bedsData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home__footer {
+  background-color: var(--primaryColor);
+  flex: 0.1;
+}
